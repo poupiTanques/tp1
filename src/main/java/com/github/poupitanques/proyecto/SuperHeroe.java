@@ -44,6 +44,6 @@ public class SuperHeroe {
 
     @Override
     public String toString() {
-        return "Nombre: " + nombre + '\n' + "Descripcion: " + '\n' + "Tiene Capa: " + tieneCapa + '\n';
+        return "Nombre: " + nombre + '\n' + "Descripcion: " + descripcion + '\n' + "Tiene Capa: " + tieneCapa + '\n';
     }
 }

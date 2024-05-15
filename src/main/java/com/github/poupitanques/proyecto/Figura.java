@@ -47,11 +47,11 @@ public class Figura {
     }
 
     public void subirPrecio(double cantidad) {
-        this.precio += cantidad;
+        this.precio = precio + cantidad;
     }
 
     @Override
     public String toString() {
-        return "Codigo: " + codigo + '\n' + "Precio: " + precio + '\n' + "SuperHeroe: " + superHeroe.toString() + '\n' + "Dimensiones: " + dimensiones.toString() + '\n';
+        return "Codigo: " + codigo + '\n' + "Precio: " + precio + '\n' + "SuperHeroe: ------\n" + superHeroe.toString() + '\n' + "Dimensiones: ------\n" + dimensiones.toString() + '\n';
     }
 }
